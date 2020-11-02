@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample page 1</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/mastar.css">
+</head>
+<body>
+    <header>
+        <div class="container escher--header">
+            <div class="row">
+                <div class="col-sm-8 col-8">
+                    <a href="" class="github__link"> 
+                        <img src="images/github-icon.svg" alt="github">
+                        Github
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <!-- logo -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-8 escher__logo">
+                    <div class="row">
+                        <div class="col-sm-6 col-6 logo_item">
+                            <img src="images/escher-logo.png" alt="logo">
+                        </div>
+                        <div class="col-sm-6 col-6 es-title">
+                            <h3 class="escher-title">ESCHER</h3>
+                            <p>Build, share, and embed visualizations of metabolic pathways</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- logo end -->
+        <!-- section 1 -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <!-- col-sm-8 -->
+                <div class="col-sm-8 col-8 es-s1">
+                    <p>Filter by organism</p>
+                    <div class="row">
+                        <div class="col-sm-12 col-12">
+                            <select name="" id="es-s1-sel">
+                                <option value="1">All</option>
+                                <option value="2">Escherichia coli</option>
+                                <option value="3">Homo Sapiens</option>
+                                <option value="4">Saccharomyces cerevisiae</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- row end -->
+                    <!-- row -->
+                    <div class="row es-sel1">
+                        <div class="col-sm-5 col-5">
+                            <p>Map</p>
+                            <select class="filter-select">
+                                <option value="None">None</option>
+                                <option value="e_coli_core.Core metabolism">Core metabolism (e_coli_core)</option>
+                                <option value="iJO1366.Central metabolism">Central metabolism (iJO1366)</option>
+                                <option value="iJO1366.Fatty acid beta-oxidation">Fatty acid beta-oxidation (iJO1366)</option>
+                                <option value="iJO1366.Fatty acid biosynthesis (saturated)">Fatty acid biosynthesis (saturated) (iJO1366)</option>
+                                <option value="iJO1366.Nucleotide and histidine biosynthesis">Nucleotide and histidine biosynthesis (iJO1366)</option>
+                                <option value="iJO1366.Nucleotide metabolism">Nucleotide metabolism (iJO1366)</option>
+                                <option value="RECON1.Amino acid metabolism (partial)">Amino acid metabolism (partial) (RECON1)</option>
+                                <option value="RECON1.Carbohydrate metabolism">Carbohydrate metabolism (RECON1)</option>
+                                <option value="RECON1.Glycolysis TCA PPP">Glycolysis TCA PPP (RECON1)</option>
+                                <option value="RECON1.Inositol retinol metabolism">Inositol retinol metabolism (RECON1)</option>
+                                <option value="RECON1.Tryptophan metabolism">Tryptophan metabolism (RECON1)</option>
+                                <option value="iMM904.Central carbon metabolism">Central carbon metabolism (iMM904)</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-4 col-4">
+                            <p>Model(Optional)</p>
+                            <select class="filter-select">
+                                <option value="None">None</option>
+                                <option value="e_coli_core">e_coli_core</option>
+                                <option value="iJO1366">iJO1366</option>
+                                <option value="RECON1">RECON1</option>
+                                <option value="iMM904">iMM904</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-3 col-3">
+                            <p>Tool</p>
+                            <select class="filter-select">
+                                <option value="Builder">Builder</option>
+                                <option value="Viewer">Viewer</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- row-end -->
+                    <!-- row -->
+                    <div class="row es-file">
+                        <div class="col-sm-6 col-6">
+                            <p>Options</p>
+                            <label for="">
+                                <input type="checkbox">
+                                Scroll to zoom (instead of scroll to pan)
+                            </label>
+                            <label for="">
+                                <input type="checkbox">
+                                Never ask before reloading
+                            </label>
+                        </div>
+                        <div class="col-sm-6 col-6">
+                            <button type="button">Load map</button>
+                        </div>
+                    </div>
+                    <!-- row end -->
+                    <div class="divide"></div>
+                    <!-- row -->
+                    <div class="row">
+                        <div class="col-sm-6 col-6">
+                            <p>Escher Apps</p>
+                            <p class="conts">
+                                New capabilities with extensions of Escher
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-6">
+                            <a href="#" class="es-demo">
+                                <div class="demo-title">
+                                    <h3>Escher-FBA</h3>Interactive, web-based flux balance analysis
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- row end -->
+                    <div class="divide"></div>
+                </div>
+                <!-- col-sm-8 end -->
+            </div>
+            <!-- row end -->
+        </div>
+        <!-- section 1 end -->
+    </section>
+
+    <footer>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body>
+</html>
