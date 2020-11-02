@@ -228,7 +228,7 @@ tr.bg-sky{
     width: 100%;
     position: relative;
 }
-.es-demo .demo-title{
+.demo-title{
     position: relative;
     color: #000;
     background: rgba(255,255,255,0.5);
@@ -241,4 +241,82 @@ tr.bg-sky{
 }
 .demo-title > h3{
     font-style: italic;
+    margin-bottom: 0;
+}
+.es-import p, .es-import a{
+    font-size: 17px;
+    font-weight: 400;
+}
+.es-import p.light_import{
+    font-weight: 300;
+    padding: 10px;
+}
+.es-import a{
+    color: #cf6965;
+}
+p.normal{
+    font-weight: 400;
+    font-size: 1em;
+}
+.es-str{
+    display: block;
+    background: url(../images/structures.png);
+    background-size: cover;
+    min-height: 200px;
+    webkit-box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+.es-str:hover{
+    text-decoration: none;
+}
+
+.es-tool{
+    display: block;
+    background: url(../images/tooltip.png);
+    background-size: cover;
+    background-position: right center;
+    min-height: 200px;
+    webkit-box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+.es-tool{
+    text-decoration: none;
+}
+.es-converter a{
+    color: #cf6965;
+}
+.es-faq li{
+    list-style: decimal;
+}
+.es-faq h4{
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+.es-faq li p{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.es-faq li a{
+    color: #cf6965;
+}
+
+span.italic{
+    font-style: italic;
+}
+.es-funding{
+    margin: 0 auto 1em;
+}
+
+footer .container-fluid{
+    background: #291e1e;
+}
+.foot-conts a{
+    color: #cf6965;
+}
+.foot-conts p{
+    color: #fff;
+}
+.foot-conts .col-sm-4{
+    text-align: right;
 }
