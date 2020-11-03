@@ -124,6 +124,9 @@ tr.bg-sky{
     height: 30px;
     margin-right: 3px;
 }
+.escher--header{
+    margin-top: .7em;
+}
 
 .escher__logo img{
     width: 65%;
@@ -137,7 +140,7 @@ tr.bg-sky{
     font-family: 'Tulpen One', cursive;
     font-weight: 400;
     position: relative;
-    top: 17%;
+    top: 14%;
 }
 .es-title{
     padding: 0;
@@ -152,10 +155,6 @@ tr.bg-sky{
     font-size: 1.5em;
     font-weight: 600;
     margin-bottom: 5px;
-}
-
-.col-6, .col-8{
-    margin: 0 auto;
 }
 #es-s1-sel{
     width: 100%;
@@ -279,7 +278,7 @@ p.normal{
     webkit-box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
     box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
 }
-.es-tool{
+.es-tool:hover{
     text-decoration: none;
 }
 .es-converter a{
@@ -319,4 +318,34 @@ footer .container-fluid{
 }
 .foot-conts .col-sm-4{
     text-align: right;
+}
+
+.foot-link{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:768px){
+    .escher-title{
+        font-size: 8em;
+        top: 36px;
+    }
+    .logo_item{
+        display: none;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .es-title p{
+        font-size: 1em;
+    }
+    .demo-box{
+        margin: 10px 0;
+    }
+    .mg-1{
+        margin: 1em 0;
+    }
+    .foot-conts .row{
+        flex-direction: row;
+    }
 }
